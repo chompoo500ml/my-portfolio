@@ -3,7 +3,7 @@ layout: main.hbs
 ---
 <div class="gang500ml">
 
-<div class="gang500ml__posts mdl-grid">
+<div class="gang500ml__portfolio mdl-grid">
 <div class="mdl-card mdl-cell mdl-cell--12-col">
 <div class="mdl-card__title mdl-color-text--grey-50">
 <img class="avatar" src="https://raw.githubusercontent.com/chompoo500ml/my-portfolio/master/public/images/chom.jpg" />
@@ -20,8 +20,8 @@ layout: main.hbs
 
 
 <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card">
-  <div class="mdl-card__media">
-    <a href="https://gang500.ml" target="_blank"><img src="https://raw.githubusercontent.com/prettypam/storage/master/pics/icon.png"></a>
+  <div class="mdl-card__media center-halign">
+    <a href="https://gang500.ml" target="_blank"><img src="https://raw.githubusercontent.com/chompoo500ml/my-portfolio/master/public/images/android-icon-192x192.png"></a>
   </div>
   <div class="mdl-card__title">
      <h4 class="mdl-card__title-text">gang500.ml</h4>
@@ -38,8 +38,8 @@ layout: main.hbs
 </div>
 
 <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card">
-  <div class="mdl-card__media">
-    <a href="https://gang500.ml" target="_blank"><img src=""></a>
+  <div class="mdl-card__media center-halign">
+    <a href="https://gang500.ml" target="_blank"><img src="https://raw.githubusercontent.com/chompoo500ml/my-portfolio/master/public/images/android-icon-192x192.png"></a>
   </div>
   <div class="mdl-card__title">
      <h4 class="mdl-card__title-text"></h4>
@@ -56,7 +56,7 @@ layout: main.hbs
 </div>
 
 <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp">
-  <div class="mdl-card__media">
+  <div class="mdl-card__media center-h">
     <img src="images/co1.jpg">
   </div>
   <div class="mdl-card__title">
@@ -73,8 +73,8 @@ layout: main.hbs
   </div>
 </div>
 
-<div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp">
-  <div class="mdl-card__media">
+<div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet mdl-cell--12-col-phone mdl-card">
+  <div class="mdl-card__media center-h">
     <img src="images/co2.jpg">
   </div>
   <div class="mdl-card__title">

@@ -4,9 +4,12 @@ body {
 body .gang500ml {
   font-family: 'Roboto', 'Helvetica', sans-serif;
 }
+.center-halign {
+  justify-content: center;
+}
 
-.gang500ml .gang500ml__posts {
-  max-width: 900px;
+.gang500ml .gang500ml__portfolio {
+  max-width: 600px;
   padding: 0;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -17,7 +20,6 @@ body .gang500ml {
       -ms-flex-negative: 0;
           flex-shrink: 0;
 }
-
 .gang500ml.mdl-layout .mdl-layout__content {
   padding-top: 30px;
   position: relative;
@@ -35,12 +37,12 @@ body .gang500ml {
           align-items: stretch;
   min-height: 360px;
 }
-.gang500ml .mdl-card__title {
+/* .gang500ml .mdl-card__title {
   padding: 16px;
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-}
+} */
 .gang500ml .mdl-card__media {
   box-sizing: border-box;
   background-size: cover;
@@ -58,10 +60,14 @@ body .gang500ml {
       -ms-flex-align: end;
           align-items: flex-end;
   cursor: pointer;
+  vertical-align: middle;
 }
 .gang500ml .mdl-card__media a,
 .gang500ml .mdl-card__title a {
   color: inherit;
+}
+.gang500ml .mdl-card__media img {
+  max-width: 100%;
 }
 .gang500ml .mdl-card__supporting-text {
   width: 100%;
@@ -137,12 +143,12 @@ body .gang500ml {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.gang500ml.is-small-screen .gang500ml__posts > .mdl-card.coffee-pic {
+.gang500ml.is-small-screen .gang500ml__portfolio > .mdl-card.coffee-pic {
   -webkit-order: 0;
       -ms-flex-order: 0;
           order: 0;
 }
-.gang500ml.is-small-screen .gang500ml__posts > .mdl-card.something-else {
+.gang500ml.is-small-screen .gang500ml__portfolio > .mdl-card.something-else {
   -webkit-order: -1;
       -ms-flex-order: -1;
           order: -1;
@@ -188,7 +194,7 @@ body .gang500ml {
 .gang500ml #sign-in-card .mdl-card__media {
   background-image: url('../images/shopping.jpg');
 }
-.gang500ml .gang500ml__posts > .demo-nav {
+.gang500ml .gang500ml__portfolio > .demo-nav {
   margin: 12px 15px;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -205,18 +211,18 @@ body .gang500ml {
   color: white;
   font-weight: 500;
 }
-.gang500ml .gang500ml__posts > .demo-nav > .demo-nav__button {
+.gang500ml .gang500ml__portfolio > .demo-nav > .demo-nav__button {
   color: white;
   text-decoration: none;
 }
-.gang500ml .gang500ml__posts > .demo-nav .mdl-button {
+.gang500ml .gang500ml__portfolio > .demo-nav .mdl-button {
   color: rgba(0,0,0,0.54);
   background-color: white;
 }
-.gang500ml .gang500ml__posts > .demo-nav > .demo-nav__button:first-child .mdl-button {
+.gang500ml .gang500ml__portfolio > .demo-nav > .demo-nav__button:first-child .mdl-button {
   margin-right: 16px;
 }
-.gang500ml .gang500ml__posts > .demo-nav > .demo-nav__button:last-child .mdl-button {
+.gang500ml .gang500ml__portfolio > .demo-nav > .demo-nav__button:last-child .mdl-button {
   margin-left: 16px;
 }
 .gang500ml .mdl-card > a {
@@ -244,7 +250,7 @@ body .gang500ml {
 .gang500ml--blogpost .custom-header {
   background-color: transparent;
 }
-.gang500ml--blogpost .gang500ml__posts > .mdl-card .mdl-card__media {
+.gang500ml--blogpost .gang500ml__portfolio > .mdl-card .mdl-card__media {
   background-image: url('../images/road_big.jpg');
   height: 280px;
 }
@@ -485,5 +491,6 @@ body .gang500ml {
   width: 180px;
   height: 180px;
   border-radius: 50%;
+  margin: auto;
   margin-bottom: 10px;
 }
