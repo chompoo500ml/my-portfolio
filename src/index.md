@@ -1,23 +1,30 @@
 ---
 layout: main.hbs
 ---
-<div class="gang500ml">
+<div class="portfolio mdl-grid">
 
-<div class="gang500ml__portfolio mdl-grid">
-<div class="mdl-card mdl-cell mdl-cell--12-col mdl-shadow--2dp">
+<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
+
 <div class="mdl-card__title mdl-color-text--grey-50">
 <img class="avatar" src="images/chom.jpg" />
 </div>
 
-<div class="mdl-card__supporting-text meta mdl-color-text--grey-600" >
+<div class="mdl-card__supporting-text meta mdl-color-text--purple-500">
+<div style="margin: -24px auto 0;">
+<h4 style="margin:auto;">chompoo500ml</h4>
+<h6 style="margin:auto;">Hits: 10</h6>
+</div>
+</div>
 
-<div style="margin:auto;">
-<strong style="margin:auto;">chompoo500ml</strong>
-<p style="margin:auto;">2 days ago</p>
-<span>2 days ago</span>
+<!--<div class="mdl-card__supporting-text meta mdl-color--purple-500  mdl-color-text--grey-50">-->
+<!--<div style="margin:auto;">-->
+<!--<p style="margin:auto;">2 days ago</p>-->
+<!--<span>2 days ago</span>-->
+<!--</div>-->
+<!--</div>-->
+
 </div>
-</div>
-</div>
+
 
 
 <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--2dp">
@@ -93,5 +100,3 @@ layout: main.hbs
 </div>
 </div>
 
-
-</div> 

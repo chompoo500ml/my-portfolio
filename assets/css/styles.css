@@ -1,14 +1,16 @@
 body {
     background: #C5C5C5;
-}
-body .gang500ml {
-  font-family: 'Roboto', 'Helvetica', sans-serif;
+    font-family: 'Roboto', 'Helvetica', sans-serif;
 }
 .center-halign {
   justify-content: center;
 }
-
-.gang500ml .gang500ml__portfolio {
+.portfolio.mdl-layout .mdl-layout__content {
+  padding-top: 30px;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+}
+.portfolio.mdl-grid {
   max-width: 600px;
   padding: 0;
   display: -webkit-flex;
@@ -20,12 +22,7 @@ body .gang500ml {
       -ms-flex-negative: 0;
           flex-shrink: 0;
 }
-.gang500ml.mdl-layout .mdl-layout__content {
-  padding-top: 30px;
-  position: relative;
-  -webkit-overflow-scrolling: touch;
-}
-.gang500ml .mdl-card {
+.portfolio .mdl-card {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -35,15 +32,15 @@ body .gang500ml {
   -webkit-align-items: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-  min-height: 360px;
+  /*min-height: 360px;*/
 }
-/* .gang500ml .mdl-card__title {
+/* .portfolio .mdl-card__title {
   padding: 16px;
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
 } */
-.gang500ml .mdl-card__media {
+.portfolio .mdl-card__media {
   box-sizing: border-box;
   background-size: cover;
   padding: 24px;
@@ -62,16 +59,16 @@ body .gang500ml {
   cursor: pointer;
   vertical-align: middle;
 }
-.gang500ml .mdl-card__media a,
-.gang500ml .mdl-card__title a {
+.portfolio .mdl-card__media a,
+.portfolio .mdl-card__title a {
   color: inherit;
 }
-.gang500ml .mdl-card__media img {
+.portfolio .mdl-card__media img {
   max-width: 100%;
 }
-.gang500ml .mdl-card__supporting-text {
+.portfolio .mdl-card__supporting-text {
   width: 100%;
-  padding: 16px;
+  /*padding: 16px;*/
   min-height: 64px;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -80,26 +77,26 @@ body .gang500ml {
       -ms-flex-align: center;
           align-items: center;
 }
-.gang500ml .mdl-card__supporting-text strong {
+.portfolio .mdl-card__supporting-text strong {
   font-weight: 400;
 }
-.gang500ml .mdl-card__media ~ .mdl-card__supporting-text {
+.portfolio .mdl-card__media ~ .mdl-card__supporting-text {
   min-height: 64px;
 }
-.gang500ml .mdl-card__supporting-text:not(:last-child) {
+.portfolio .mdl-card__supporting-text:not(:last-child) {
   box-sizing: border-box;
   min-height: 76px;
 }
-.gang500ml:not(.gang500ml--blogpost) .mdl-card__supporting-text ~ .mdl-card__supporting-text {
+.portfolio:not(.portfolio--blogpost) .mdl-card__supporting-text ~ .mdl-card__supporting-text {
   border-top: 1px solid rgba(0,0,0,0.1);
 }
 
-.gang500ml .mdl-card__actions:first-child {
+.portfolio .mdl-card__actions:first-child {
   margin-left: 0;
 }
-.gang500ml .meta {
+.portfolio .meta {
   box-sizing: border-box;
-  padding: 16px;
+  /*padding: 16px;*/
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -114,7 +111,7 @@ body .gang500ml {
           justify-content: flex-start;
   height: auto;
 }
-.gang500ml .meta > .meta__favorites{
+.portfolio .meta > .meta__favorites{
   -webkit-flex-direction: row;
       -ms-flex-direction: row;
           flex-direction: row;
@@ -122,20 +119,20 @@ body .gang500ml {
   font-size: 13px;
   font-weight: 500;
 }
-.gang500ml .meta > .meta__favorites .material-icons {
+.portfolio .meta > .meta__favorites .material-icons {
   font-size: 2em;
   cursor: pointer;
   margin-left: 12px;
 }
-.gang500ml .mdl-card .meta.meta--fill {
+.portfolio .mdl-card .meta.meta--fill {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.gang500ml .meta > *:first-child {
+.portfolio .meta > *:first-child {
   margin-right: 16px;
 }
-.gang500ml .meta > * {
+.portfolio .meta > * {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -143,20 +140,20 @@ body .gang500ml {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.gang500ml.is-small-screen .gang500ml__portfolio > .mdl-card.coffee-pic {
+.portfolio.is-small-screen .portfolio__portfolio > .mdl-card.coffee-pic {
   -webkit-order: 0;
       -ms-flex-order: 0;
           order: 0;
 }
-.gang500ml.is-small-screen .gang500ml__portfolio > .mdl-card.something-else {
+.portfolio.is-small-screen .portfolio__portfolio > .mdl-card.something-else {
   -webkit-order: -1;
       -ms-flex-order: -1;
           order: -1;
 }
-.gang500ml .quote-pic .mdl-card__media {
+.portfolio .quote-pic .mdl-card__media {
   background-image: url('../images/quote-pic-1.jpg');
 }
-.gang500ml .something-else .mdl-card__media {
+.portfolio .something-else .mdl-card__media {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -170,31 +167,31 @@ body .gang500ml {
       -ms-flex-align: center;
           align-items: center;
 }
-.gang500ml .something-else > button {
+.portfolio .something-else > button {
   position: absolute;
   top: 0;
   right: 28px;
   -webkit-transform: translate(0px, -28px);
           transform: translate(0px, -28px);
 }
-.gang500ml .something-else .mdl-card__media {
+.portfolio .something-else .mdl-card__media {
   font-size: 13px;
   font-weight: 500;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
 }
-.gang500ml .something-else .mdl-card__supporting-text {
+.portfolio .something-else .mdl-card__supporting-text {
   background-color: #F5F5F5;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
 }
-.gang500ml .on-the-road-again .mdl-card__media {
+.portfolio .on-the-road-again .mdl-card__media {
   background-image: url('../images/road.jpg');
 }
-.gang500ml #sign-in-card .mdl-card__media {
+.portfolio #sign-in-card .mdl-card__media {
   background-image: url('../images/shopping.jpg');
 }
-.gang500ml .gang500ml__portfolio > .demo-nav {
+.portfolio .portfolio__portfolio > .demo-nav {
   margin: 12px 15px;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -211,58 +208,58 @@ body .gang500ml {
   color: white;
   font-weight: 500;
 }
-.gang500ml .gang500ml__portfolio > .demo-nav > .demo-nav__button {
+.portfolio .portfolio__portfolio > .demo-nav > .demo-nav__button {
   color: white;
   text-decoration: none;
 }
-.gang500ml .gang500ml__portfolio > .demo-nav .mdl-button {
+.portfolio .portfolio__portfolio > .demo-nav .mdl-button {
   color: rgba(0,0,0,0.54);
   background-color: white;
 }
-.gang500ml .gang500ml__portfolio > .demo-nav > .demo-nav__button:first-child .mdl-button {
+.portfolio .portfolio__portfolio > .demo-nav > .demo-nav__button:first-child .mdl-button {
   margin-right: 16px;
 }
-.gang500ml .gang500ml__portfolio > .demo-nav > .demo-nav__button:last-child .mdl-button {
+.portfolio .portfolio__portfolio > .demo-nav > .demo-nav__button:last-child .mdl-button {
   margin-left: 16px;
 }
-.gang500ml .mdl-card > a {
+.portfolio .mdl-card > a {
   color: inherit;
   text-decoration: none;
   font-weight: inherit;
 }
-.gang500ml .mdl-card h3 {
+.portfolio .mdl-card h3 {
   margin: 0;
 }
-.gang500ml .mdl-card h3 a {
+.portfolio .mdl-card h3 a {
   text-decoration: none;
 }
-.gang500ml .mdl-card h3.quote:before, .gang500ml .mdl-card h3.quote:after {
+.portfolio .mdl-card h3.quote:before, .portfolio .mdl-card h3.quote:after {
   display: block;
   font-size: 3em;
   margin-top: 0.5em;
 }
-.gang500ml .mdl-card h3.quote:before {
+.portfolio .mdl-card h3.quote:before {
   content: '“';
 }
-.gang500ml .mdl-card h3.quote:after {
+.portfolio .mdl-card h3.quote:after {
   content: '”';
 }
-.gang500ml--blogpost .custom-header {
+.portfolio--blogpost .custom-header {
   background-color: transparent;
 }
-.gang500ml--blogpost .gang500ml__portfolio > .mdl-card .mdl-card__media {
+.portfolio--blogpost .portfolio__portfolio > .mdl-card .mdl-card__media {
   background-image: url('../images/road_big.jpg');
   height: 280px;
 }
-.gang500ml--blogpost .comments {
+.portfolio--blogpost .comments {
   background-color: #EEE;
 }
-.gang500ml--blogpost .meta > * {
+.portfolio--blogpost .meta > * {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
 }
-.gang500ml--blogpost .meta + .mdl-card__supporting-text {
+.portfolio--blogpost .meta + .mdl-card__supporting-text {
   border: 0;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -271,14 +268,14 @@ body .gang500ml {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.gang500ml--blogpost .meta + .mdl-card__supporting-text p {
+.portfolio--blogpost .meta + .mdl-card__supporting-text p {
   max-width: 512px;
   margin: 16px auto;
   font-size: 16px;
   line-height: 28px;
 }
 
-.gang500ml--blogpost .comments {
+.portfolio--blogpost .comments {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -294,7 +291,7 @@ body .gang500ml {
   padding: 32px;
   box-sizing: border-box;
 }
-.gang500ml--blogpost .comments > form {
+.portfolio--blogpost .comments > form {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -303,7 +300,7 @@ body .gang500ml {
           flex-direction: row;
   margin-bottom: 16px;
 }
-.gang500ml--blogpost .comments > form .mdl-textfield {
+.portfolio--blogpost .comments > form .mdl-textfield {
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -313,19 +310,19 @@ body .gang500ml {
 /* Workaround for Firefox.
  * User agent stylesheet kept overwriting the font in FF only.
  */
-.gang500ml--blogpost .comments > form .mdl-textfield .mdl-textfield__input {
+.portfolio--blogpost .comments > form .mdl-textfield .mdl-textfield__input {
   font-family: 'Roboto', 'Helvetica', sans-serif;
 }
-.gang500ml--blogpost .comments > form .mdl-textfield input,
-.gang500ml--blogpost .comments > form .mdl-textfield textarea {
+.portfolio--blogpost .comments > form .mdl-textfield input,
+.portfolio--blogpost .comments > form .mdl-textfield textarea {
   resize: none;
 }
-.gang500ml--blogpost .comments > form button {
+.portfolio--blogpost .comments > form button {
   margin-top: 20px;
   background-color: rgba(0, 0, 0, 0.24);
   color: white;
 }
-.gang500ml--blogpost .comments .comment {
+.portfolio--blogpost .comments .comment {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -336,7 +333,7 @@ body .gang500ml {
       -ms-flex-align: stretch;
           align-items: stretch;
 }
-.gang500ml--blogpost .comments .comment > .comment__header {
+.portfolio--blogpost .comments .comment > .comment__header {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -348,13 +345,13 @@ body .gang500ml {
           align-items: center;
   margin-bottom: 16px;
 }
-.gang500ml--blogpost .comments .comment > .comment__header > .comment__avatar {
+.portfolio--blogpost .comments .comment > .comment__header > .comment__avatar {
   width: 48px;
   height: 48px;
   border-radius: 24px;
   margin-right: 16px;
 }
-.gang500ml--blogpost .comments .comment > .comment__header > .comment__author {
+.portfolio--blogpost .comments .comment > .comment__header > .comment__author {
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -365,10 +362,10 @@ body .gang500ml {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.gang500ml--blogpost .comments .comment > .comment__text {
+.portfolio--blogpost .comments .comment > .comment__text {
   line-height: 1.5em;
 }
-.gang500ml--blogpost .comments .comment > .comment__actions {
+.portfolio--blogpost .comments .comment > .comment__actions {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -384,35 +381,35 @@ body .gang500ml {
   font-size: 0.8em;
   margin-top: 16px;
 }
-.gang500ml--blogpost .comments .comment > .comment__actions button {
+.portfolio--blogpost .comments .comment > .comment__actions button {
   margin-right: 16px;
   color: rgba(0, 0, 0, 0.24);
 }
-.gang500ml--blogpost .comments .comment > .comment__answers {
+.portfolio--blogpost .comments .comment > .comment__answers {
   padding-top: 32px;
   padding-left: 48px;
 }
 
-.gang500ml--blogpost .demo-back {
+.portfolio--blogpost .demo-back {
   position: absolute;
   top: 16px;
   left: 16px;
   color: white;
   z-index: 9999;
 }
-.gang500ml .section-spacer {
+.portfolio .section-spacer {
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
-.gang500ml .something-else {
+.portfolio .something-else {
   overflow: visible;
   z-index: 10;
 }
-.gang500ml .amazing .mdl-card__title {
+.portfolio .amazing .mdl-card__title {
   background-color: #263238;
 }
-.gang500ml .minilogo {
+.portfolio .minilogo {
   width: 44px;
   height: 44px;
   background-image: url('../images/misora-haruki.jpg');
@@ -456,7 +453,7 @@ body .gang500ml {
   background: transparent;
 }
 
-.gang500ml .mdl-mini-footer {
+.portfolio .mdl-mini-footer {
   margin-top: 80px;
   height: 120px;
   padding: 40px;
