@@ -1,0 +1,3 @@
+[submodule "chompoo500ml-github-io"]
+	path = chompoo500ml-github-io
+	url = git@github.com:chompoo500ml/chompoo500ml.github.io.git

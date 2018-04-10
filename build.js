@@ -15,7 +15,7 @@ var metalsmith = Metalsmith(__dirname)
     url: "https://github.com/chompoo500ml"
   })
   .source('src')
-  .destination('public')
+  .destination('chompoo500ml-github-io')
   .clean(true)
   .use(assets({
     source: 'assets',
