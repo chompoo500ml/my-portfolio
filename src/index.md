@@ -12,7 +12,8 @@ layout: main.hbs
 <div class="mdl-card__supporting-text meta mdl-color-text--grey-600" >
 
 <div style="margin:auto;">
-<strong>chompoo500ml</strong>
+<strong style="margin:auto;">chompoo500ml</strong>
+<p style="margin:auto;">2 days ago</p>
 <span>2 days ago</span>
 </div>
 </div>
