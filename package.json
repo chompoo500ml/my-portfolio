@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 0",
     "deploy-dev-repo": "git subtree push --prefix public origin gh-pages",
     "deploy-prod-repo": "git subtree push --prefix public gh-pages-repo master",
-    "deploy": "git subtree push --prefix public gh-pages-repo master",    
+    "deploy": "git subtree push --prefix public gh-pages-repo master"
   },
   "repository": {
     "type": "git",
