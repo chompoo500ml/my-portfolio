@@ -10,18 +10,14 @@ layout: main.hbs
 </div>
 
 <div class="mdl-card__supporting-text meta mdl-color-text--purple-500">
-<div style="margin: -24px auto 0;">
-<h4 style="margin:auto;">chompoo500ml</h4>
-<h6 style="margin:auto;">Hits: 10</h6>
-</div>
+<div style="margin: -42px auto 0;"><h4>chompoo500ml</h4></div>
 </div>
 
-<!--<div class="mdl-card__supporting-text meta mdl-color--purple-500  mdl-color-text--grey-50">-->
-<!--<div style="margin:auto;">-->
-<!--<p style="margin:auto;">2 days ago</p>-->
-<!--<span>2 days ago</span>-->
-<!--</div>-->
-<!--</div>-->
+<div class="mdl-card__supporting-text mdl-color-text--grey-50">
+<div style="margin:auto;">
+<h6><i class="fab fa-github-alt fa-2x mdl-color-text--purple-500 center-valign"></i>&nbsp;&nbsp;https://github.com/chompoo500ml</h6>
+</div>
+</div>
 
 </div>
 

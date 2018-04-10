@@ -5,6 +5,9 @@ body {
 .center-halign {
   justify-content: center;
 }
+.center-valign {
+  vertical-align:middle;
+}
 .portfolio.mdl-layout .mdl-layout__content {
   padding-top: 30px;
   position: relative;
@@ -446,6 +449,9 @@ body {
   background-image: url('https://www.gstatic.com/../images/icons/material/system/2x/post_facebook_black_24dp.png');
 }
 .social-btn__gplus {
+  background-image: url('https://www.gstatic.com/../images/icons/material/system/2x/post_gplus_black_24dp.png');
+}
+.social-btn__github {
   background-image: url('https://www.gstatic.com/../images/icons/material/system/2x/post_gplus_black_24dp.png');
 }
 .social-btn__share {
