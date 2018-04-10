@@ -12,7 +12,7 @@ layout: main.hbs
 <div class="mdl-card__supporting-text meta mdl-color-text--grey-600" >
 
 <div style="margin:auto;">
-<strong>The Newist</strong>
+<strong>chompoo500ml</strong>
 <span>2 days ago</span>
 </div>
 </div>

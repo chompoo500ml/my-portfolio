@@ -8,9 +8,8 @@
     "build-prod": "NODE_ENV=production node build",
     "start": "node ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 0",
-    "deploy-dev-repo": "git subtree push --prefix public origin gh-pages",
-    "deploy-prod-repo": "git subtree push --prefix public gh-pages-repo master",
-    "deploy": "git subtree push --prefix public gh-pages-repo master"
+    "deploy-gh-pages": "git subtree push --prefix public origin gh-pages",
+    "deploy": "cd chompoo500ml-github-io && git add . && git commit -m 'aa' && git push && cd .."
   },
   "repository": {
     "type": "git",
