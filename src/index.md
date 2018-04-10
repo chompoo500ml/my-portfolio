@@ -6,7 +6,7 @@ layout: main.hbs
 <div class="gang500ml__portfolio mdl-grid">
 <div class="mdl-card mdl-cell mdl-cell--12-col mdl-shadow--2dp">
 <div class="mdl-card__title mdl-color-text--grey-50">
-<img class="avatar" src="https://raw.githubusercontent.com/chompoo500ml/my-portfolio/master/public/images/chom.jpg" />
+<img class="avatar" src="images/chom.jpg" />
 </div>
 
 <div class="mdl-card__supporting-text meta mdl-color-text--grey-600" >
@@ -22,7 +22,7 @@ layout: main.hbs
 
 <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--2dp">
   <div class="mdl-card__media center-halign">
-    <a href="https://gang500.ml" target="_blank"><img src="https://raw.githubusercontent.com/chompoo500ml/my-portfolio/master/public/images/android-icon-192x192.png"></a>
+    <a href="https://gang500.ml" target="_blank"><img src="images/android-icon-192x192.png"></a>
   </div>
   <div class="mdl-card__title">
      <h4 class="mdl-card__title-text">gang500.ml</h4>
@@ -40,7 +40,7 @@ layout: main.hbs
 
 <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--2dp">
   <div class="mdl-card__media center-halign">
-    <a href="https://gang500.ml" target="_blank"><img src="https://raw.githubusercontent.com/chompoo500ml/my-portfolio/master/public/images/android-icon-192x192.png"></a>
+    <a href="https://gang500.ml" target="_blank"><img src="images/android-icon-192x192.png"></a>
   </div>
   <div class="mdl-card__title">
      <h4 class="mdl-card__title-text"></h4>
