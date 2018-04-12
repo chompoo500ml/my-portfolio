@@ -42,57 +42,25 @@ layout: main.hbs
 </div>
 
 <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--2dp">
-  <div class="mdl-card__media center-halign">
-    <a href="https://gang500.ml" target="_blank"><img src="images/android-icon-192x192.png"></a>
+  <div class="mdl-card__media center-halign mdl-color--white">
+    <a href="https://codepen.io/chompoo500ml/full/MVLbaY/" target="_blank"><img src="https://images.unsplash.com/photo-1496156555893-ce6408188e2c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=b51be5740aa24d93cd7e48772b772220"></a>
   </div>
   <div class="mdl-card__title">
-     <h4 class="mdl-card__title-text"></h4>
+     <h4 class="mdl-card__title-text">A tribute to the first love</h4>
   </div>
   <div class="mdl-card__supporting-text">
-    <span class="mdl-typography--font-light mdl-typography--subhead"></span>
+    <span class="mdl-typography--font-light mdl-typography--subhead">This is a tribute page which I created to complete an assignment from freecodecamp.org</span>
   </div>
   <div class="mdl-card__actions">
-     <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
-       
-       <i class="material-icons"></i>
-     </a>
-  </div>
-</div>
-
-<div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--2dp">
-  <div class="mdl-card__media center-halign">
-    <img src="images/co1.jpg">
-  </div>
-  <div class="mdl-card__title">
-     <h4 class="mdl-card__title-text">Get a clean customisable home screen</h4>
-  </div>
-  <div class="mdl-card__supporting-text">
-    <span class="mdl-typography--font-light mdl-typography--subhead">A clean, simple, customisable home screen that comes with the power of Google Now: Traffic alerts, weather and much more, just a swipe away.</span>
-  </div>
-  <div class="mdl-card__actions">
-     <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
-       Download now
+     <a class="mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://codepen.io/chompoo500ml/full/MVLbaY/" target="_blank">
+       check it out
        <i class="material-icons">chevron_right</i>
      </a>
   </div>
 </div>
 
-<div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--2dp">
-  <div class="mdl-card__media center-halign">
-    <img src="images/co2.jpg">
-  </div>
-  <div class="mdl-card__title">
-     <h4 class="mdl-card__title-text">Millions to choose from</h4>
-  </div>
-  <div class="mdl-card__supporting-text">
-    <span class="mdl-typography--font-light mdl-typography--subhead">Hail a taxi, find a recipe, run through a temple – Google Play has all the apps and games that let you make your Android device uniquely yours.</span>
-  </div>
-  <div class="mdl-card__actions">
-     <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
-       Find apps
-       <i class="material-icons">chevron_right</i>
-     </a>
-  </div>
-</div>
+
+
+
 </div>
 
