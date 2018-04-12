@@ -15,9 +15,9 @@ layout: main.hbs
 
 <div class="mdl-card__supporting-text">
 <div style="margin:auto;">
-<h6><i class="far fa-compass fa-2x mdl-color-text--grey-700 center-valign"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://chompoo500ml.github.io/">https://chompoo500ml.github.io</a></h6>
+<h6><i class="far fa-compass fa-2x mdl-color-text--grey-700 center-valign"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://chompoo500ml.github.io/" target="_blank">https://chompoo500ml.github.io</a></h6>
 <h6><i class="far fa-envelope fa-2x mdl-color-text--grey-700 center-valign"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;chompoo@gang500.ml</h6>
-<h6><i class="fab fa-github-alt fa-2x mdl-color-text--grey-700 center-valign"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/chompoo500ml">https://github.com/chompoo500ml</a></h6>
+<h6><i class="fab fa-github-alt fa-2x mdl-color-text--grey-700 center-valign"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/chompoo500ml" target="_blank">https://github.com/chompoo500ml</a></h6>
 </div>
 </div>
 
