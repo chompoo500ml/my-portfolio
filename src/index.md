@@ -27,7 +27,7 @@ layout: main.hbs
 
 <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--2dp">
   <div class="mdl-card__media center-halign">
-    <a href="https://gang500.ml" target="_blank"><img src="images/android-icon-192x192.png"></a>
+    <a href="https://gang500.ml" target="_blank"><img src="images/gang500ml.png"></a>
   </div>
   <div class="mdl-card__title">
      <h4 class="mdl-card__title-text">gang500.ml</h4>
