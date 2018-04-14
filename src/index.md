@@ -62,6 +62,20 @@ layout: main.hbs
 </div>
 
 
+<div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title">
+    <h3 class="quote"><a href="https://github.com/gang500ml/quotes-500ml" target="_blank">Quote API</a></h3>
+  </div>
+  <div class="mdl-card__supporting-text">
+    <span class="mdl-typography--font-light mdl-typography--subhead">Quote API on Firebase</span>
+  </div>
+  <div class="mdl-card__actions">
+     <a class="mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://github.com/gang500ml/quotes-500ml" target="_blank">
+       check it out
+       <i class="material-icons">chevron_right</i>
+     </a>
+  </div>
+</div>
 
 
 </div>
